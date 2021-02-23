@@ -1,8 +1,8 @@
-# HeroicGamesLauncher V2.0 document structure suggestion
+# Directory structure suggestion
 
-ATM some items are in nonconventional folders. So I decided to design a new, more organised directory structure.
-Below here I will explain each folder and sub folders with why I moved them to there.
-To explore the file structure I have added to this repository.
+Somtimes I see project who confuse me with their folder structure, So I keep this directory design as a idea for future projects.
+Each folder and sub folders have their own explaination. 
+Additionally I have the folder structure setup in the repo.
 
 ## build
 
