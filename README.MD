@@ -4,62 +4,68 @@ Somtimes I see project who confuse me with their folder structure, So I keep thi
 Each folder and sub folders have their own explaination. 
 Additionally I have the folder structure setup in the repo.
 
-## build
+Tests depends on where we want to place them, I personally place them beside the file. But other people like to have a `tests/` directory.
+```text
+LanguageSelector.ts
+LangaugeSelector.spec.ts (or LangaugeSelector.test.ts)
+```
+
+## build/
 
 This contains the builded output.
 
-## dist
+## dist/
 
 This contains the compiled output (JS, CSS, Images, etc)
 
-## scripts
+## scripts/
 
 This contains all kinds of scripts, like build scripts or development scripts.
 
-## static
+## static/
 
 This folder contains static files like images, html file or binary files.
 
-## src
+## src/
 
 This contains editable files like locales, source files and other common editable files.
 
-### src/backend
+### src/backend/
 
 This folder contains the backend source files. This is the Electron side of the application.
 
-#### src/backend/libs
+#### src/backend/libs/
 
 This folder contains backend libs.
 
-### src/frontend
+### src/frontend/
 
 This folder contains the frontend source files. This is the React side of the application.
 
-#### src/frontend/components
+#### src/frontend/components/
 
 This folder contains the simple components like buttons, modals, inputs etc.
 
-#### src/frontend/contexts
+#### src/frontend/contexts/
 
 This folder contains React contexts.
 
-#### src/frontend/hooks
+#### src/frontend/hooks/
 
 This folder contains React hooks.
 
-#### src/frontend/libs
+#### src/frontend/libs/
 
 This folder contains frontend libs.
 
-#### src/frontend/pages
+#### src/frontend/pages/
 
 This folder contains full screen pages like the library, login and application settings.
 
-## src/common
+## src/common/
 
 This folder contains source files that are being used by the backend and frontend. This mainly contains shared types and libs.
 
-## src/locales
+## src/locales/
 
 This folder contains the locales.
